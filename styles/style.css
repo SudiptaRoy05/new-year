@@ -55,22 +55,51 @@ h1 {
 
 
 /* //////////////////////Banner Styles ends ////////////////////// */
-/* .section65-container {
+
+/* //////////////////////section65 Styles starts ////////////////////// */
+.section65-container {
     max-width: 802.9px;
     height: 806px;
     margin: 70px auto;
-    border: tomato solid 1px;
 }
-.section65-container h1, p{
+
+.section65-content h1,
+p {
     color: rgb(255, 0, 0);
     font-family: Inter;
 }
 
-.section65-container h1{
-    
+.section65-content h1 {
+
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
     letter-spacing: 0%;
     text-align: center;
-} */
+}
+
+.section65-content p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section65-content h2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section65-container img {
+    width: 802.9px;
+    height: 500px;
+    margin-top: 48px;
+}
+
+/* //////////////////////section65 Styles ends ////////////////////// */
