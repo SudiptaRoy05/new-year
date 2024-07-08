@@ -341,9 +341,11 @@ p {
 
 
 .holyday-section {
-    width: 1068px;
-    height: 260px;
+    width: 1320px;
+    height: 986.07px;
     margin: 70px auto;
+    position: relative;
+    /* border: 1px solid blue; */
 }
 
 .holyday-content .holyday-title {
@@ -380,3 +382,45 @@ p {
     letter-spacing: 0%;
     text-align: center;
 }
+
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    margin: auto;
+    background: rgb(255, 0, 0);
+    top: 757.07px;
+    position: absolute;
+    
+}
+
+.holyday-giftbox {
+    width: 674.82px;
+    height: 577.96px;
+    position: absolute;
+    bottom: 106px;
+}
+
+.holyday-girl img{
+    width: 430px;
+}
+
+.holyday-girl{
+    /* width: 300px; */
+    position: absolute;
+    bottom: 225px;
+    left: 890px;
+}
+
+.holyday-discount img{
+    width: 360px;
+}
+
+.holyday-discount{
+    position: absolute;
+    bottom: 265px;
+    left: 700px;
+}
+
+
+/* ///////////////holydays styles ends///////////////// */
