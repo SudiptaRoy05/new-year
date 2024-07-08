@@ -140,7 +140,7 @@ p {
 }
 
 .trd-section-title h1,
-p {
+.trd-section-title p {
     margin-left: 126px;
 }
 
@@ -254,3 +254,129 @@ p {
 }
 
 /* ///////////////event section style ends///////////// */
+
+
+/* ///////////////comming soon style starts///////////// */
+
+.coming-soon-container {
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px auto;
+}
+
+.coming-soon-content {
+    width: 33%;
+    height: 100%;
+}
+
+.coming-soon-content .mt {
+    margin-top: 100px;
+}
+
+.coming-soon-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.coming-soon-content p>span {
+    color: red;
+}
+
+.coming-soon-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+/* .coming-soon-circle {
+    
+} */
+
+
+
+.coming-soon-content .main-img {
+
+    width: 364.84px;
+    height: 364.84px;
+    /* padding: 50px; */
+    margin: 0 40px 20px 0;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.coming-soon-content h2 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.coming-soon-content .main-img2 {
+    margin-top: 50px;
+}
+
+/* ////////////coming-soon section style end /////////////// */
+
+/* ///////////////holydays styles start///////////////// */
+
+
+.holyday-section {
+    width: 1068px;
+    height: 260px;
+    margin: 70px auto;
+}
+
+.holyday-content .holyday-title {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.holyday-content h1 {
+    font-family: Merriweather;
+    color: rgb(7, 2, 17);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.holyday-content h1 span {
+    color: red;
+}
+
+.holyday-content .holyday-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
