@@ -489,7 +489,6 @@ h1 {
 
     background: rgba(255, 0, 0, 0.05);
 
-    border: 1px solid red;
 }
 
 .subscribe-content {
@@ -564,3 +563,86 @@ h1 {
 }
 
 /* ////////////////subscribe styles end //////////////// */
+
+
+/* ////////////footer style start ............... */
+.footer-container {
+    width: 1600px;
+    height: 609px;
+    margin: auto;
+    background: rgb(7, 2, 17);
+}
+
+.footer-first-section {
+    width: 1185px;
+    height: 80px;
+    display: flex;
+    padding-top: 80px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footer-left-first p {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-right-first p {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+hr {
+    width: 1320px;
+    height: 0;
+    margin: 40px auto;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+.social-section {
+    width: 328px;
+    height: 64px;
+    margin: 98px auto;
+    display: flex;
+    gap: 31.92px;
+
+}
+
+.social-link {
+    width: 62.5px;
+    height: 62.5px;
+}
+
+.footer-last-section {
+    width: 1320;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ////////////footer style end ...............  */
