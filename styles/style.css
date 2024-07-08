@@ -478,3 +478,89 @@ h1 {
 
 /* ///////////////gift styles ends///////////////// */
 
+/* ////////////////subscribe styles start //////////////// */
+
+.subscribe-section-container {
+    width: 1320px;
+    height: 616px;
+    margin: 70px auto;
+
+    border-radius: 16px;
+
+    background: rgba(255, 0, 0, 0.05);
+
+    border: 1px solid red;
+}
+
+.subscribe-content {
+    width: 896px;
+    height: 336px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.subscribe-content img {
+    width: 150px;
+    height: 150px;
+}
+
+.subscribe-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.subscribe-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.input-section {
+    display: flex;
+    width: 648px;
+    height: 72px;
+    margin: auto;
+}
+
+.input-section input {
+    width: 438px;
+    height: 12px;
+    border-radius: 50px 0px 0px 50px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.input-section a {
+    padding: 20px 30px;
+    width: 210px;
+
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+/* ////////////////subscribe styles end //////////////// */
